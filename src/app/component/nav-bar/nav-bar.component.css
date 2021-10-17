@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+#container{
+
+}
+
+#container h1{
+    font-family: 'Pacifico', cursive;
+    color: skyblue;
+}
+
+#container a{
+    color: whitesmoke;
+}
+
