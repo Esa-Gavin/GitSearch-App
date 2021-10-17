@@ -10,6 +10,9 @@ export class SearchComponent implements OnInit {
   @Output() valueEmitter = new EventEmitter<any>();
   
   constructor() {}
+  mtumiajiMpya() {
+    this.valueEmitter.emit(this.value);
+  }
 
   ngOnInit(): void {}
 }

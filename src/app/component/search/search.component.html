@@ -1,1 +1,23 @@
-<p>search works!</p>
+<div class="row">
+    <div class="col-md mb-4">
+      <form
+        #targetForm="ngForm"
+        name="targetForm"
+        (submit)="mtumiajiMpya()"
+        class="form-inline md-form form-sm mt-0"
+      >
+        <div class="form-group">
+          <input
+            required
+            [(ngModel)]="value"
+            name="value"
+            id="matokeo"
+            class="form-control form-control-sm ml-3 w-20"
+            type="search"
+            placeholder="Search"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+  
