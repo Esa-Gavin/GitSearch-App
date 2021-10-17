@@ -1,1 +1,18 @@
-<p>repositories works!</p>
+<app-search (valueEmitter)="fetchRepo($event)"></app-search>
+
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col" *ngFor="let r of repo">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{ r.name }}</h5>
+          <p>{{ r.description }}</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-white"
+            >{{ r.forks }} / {{ r.language }} / {{ r.watchers }}
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+
