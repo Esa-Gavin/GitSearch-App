@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body { 
+    background-image:url('./assets/images/xxx.gif');
+    background-size: cover; 
+    background-repeat:no-repeat; 
+}
