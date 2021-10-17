@@ -11,7 +11,15 @@ export class RepositoriesComponent implements OnInit {
   repo: Repositories[];
   constructor(public repoService: RepoService) { }
 
+  fetchRepo(value: string) {
+    this.repoService.fetchRepo(value).subscribe((data) => {
+      this.repo = data;
+      console.log(this.repo);
+    });
+  }
+
   ngOnInit(): void {
+    this.fetchRepo('Gavin-Kariuki');
   }
 
 }
