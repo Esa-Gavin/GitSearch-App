@@ -1,0 +1,42 @@
+<div class="container-fluid" id="homeContainer">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="logoimage">
+        <img
+          class="img-fluid"
+          src="../../../assets/images/copy_242649509.png"
+          alt="..."
+        />
+      </div>
+      <app-search (valueEmitter)="tafutaMtumiaji($event)"></app-search>
+    </div>
+    <div class="col-md-5" *ngFor="let m of mtumiaji">
+      <div class="card shadow-lg p-3 mb-5 text-white bg-dark rounded">
+        <img [src]="m.avatar_url" [alt]="m.name" class="profile" />
+        <div class="card-body">
+          <div class="center">
+            <h2>{{ m.name }}</h2>
+            <p>{{ m.bio }}</p>
+          </div>
+
+          <p class="center">
+            <span class="badge badge-success">
+              Followers: {{ m.followers }}
+            </span>
+
+            <span class="badge badge-success">
+              Following: {{ m.following }}
+            </span>
+            <span class="badge badge-success">
+              Repositories: {{ m.public_repos }}
+            </span>
+
+            <span class="badge badge-success"
+              >Public repos: {{ m.public_repos }}</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
