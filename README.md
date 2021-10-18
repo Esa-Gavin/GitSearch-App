@@ -60,7 +60,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-![Screenshot 2021-10-13 at 22 53 37](https://user-images.githubusercontent.com/89376826/137203529-90c9c023-0117-4aa3-8a9f-bbc05d4af7e0.png)
+<!--put your screenshot here-->
 
 ## About The Project
 
@@ -92,7 +92,8 @@ To get a local copy up and running follow these simple steps.
 
 ## Usage
 
-![HermanoQuoteGIF2](https://user-images.githubusercontent.com/89376826/137203044-e8dd7221-28b2-4c29-a174-c2f77794cf5f.gif)
+
+<!--put your gif here demonstrating how to use the app-->
 
 You can look for how many followings a user has and a whole lot of other things.
 
