@@ -1,27 +1,135 @@
-# GitSearchApp
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username, repo_name, twitter_handle, email, project_title, project_description
+-->
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+<p align="center">
+    <img src="/src/assets/images/logo.png" alt="Logo" width="200px">
+  </a>
+  <h3 align="center">Hermano Quotes</h3>
 
-## Development server
+  <p align="center">
+    GitSearch app is an application where a user can search for repositories and also profiles. This is achieved by intergrating the GitAPI that fetches data. It's a pretty cool app i guess.
+    <br />
+    <a href="https://github.com/Gavin-Kariuki/GitSearch-App"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+  </p>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-## Code scaffolding
+<!-- ABOUT THE PROJECT -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Screenshot 2021-10-13 at 22 53 37](https://user-images.githubusercontent.com/89376826/137203529-90c9c023-0117-4aa3-8a9f-bbc05d4af7e0.png)
 
-## Build
+## About The Project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`Gavin-Kariuki`, `GitSearch-App`, `twitter_handle`, `gavin.kariuki@student.moringaschool.com`, `Git search application`, `This is for searching users information on github`
 
-## Running unit tests
+### Built With
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [HTML](https://html.com)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [ANGULAR](https://angular.io/docs)
+- [BOOTSTRAP](https://getbootstrap.com)
+- [TYPESCRIPT](https://www.typescriptlang.org/docs/)
 
-## Running end-to-end tests
+<!-- GETTING STARTED -->
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Getting Started
 
-## Further help
+To get a local copy up and running follow these simple steps.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Gavin-Kariuki/GitSearch-App.git
+   ```
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+![HermanoQuoteGIF2](https://user-images.githubusercontent.com/89376826/137203044-e8dd7221-28b2-4c29-a174-c2f77794cf5f.gif)
+
+You can look for how many followings a user has and a whole lot of other things.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Gavin Kariuki - gavinkariuki@student.moringaschool.com
+
+Project Link: [https://github.com/Gavin-Kariuki/GitSearch-App](https://github.com/Gavin-Kariuki/GitSearch-App)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+- [Bootstrap](https://getbootstrap.com)
+- [Font Awesome](https://fontawesome.com)
+- [Google Fonts](https://fonts.google.com)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [License](https://choosealicense.com)
