@@ -21,7 +21,7 @@
 <p align="center">
     <img src="/src/assets/images/logo.png" alt="Logo" width="200px">
   </a>
-  <h3 align="center">Hermano Quotes</h3>
+  <h3 align="center">GitSearch App</h3>
 
   <p align="center">
     GitSearch app is an application where a user can search for repositories and also profiles. This is achieved by intergrating the GitAPI that fetches data. It's a pretty cool app i guess.
